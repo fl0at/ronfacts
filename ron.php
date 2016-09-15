@@ -8,8 +8,15 @@ $ronFacts = array(
 	":rj0::rj1::rj2::rj3:\n:rj4::rj5::rj6::rj7:\n:rj8::rj9::rj10::rj11:\n:rj12::rj13::rj14::rj15:"
 );
 
+///////////////////////////////////////////////////////////////////////////////
+
 $rand = array_rand($ronFacts);
 
-header('Content-Type: application/json');
+// see https://api.slack.com/slash-commands
+$slack_msg = array(
+	'response_type' => 'in_channel',
+	'text' => $ronFacts[$rand]
+);
 
-print('{ "response_type": "in_channel", "text": "' . $ronFacts[$rand] . '"}');
+header('Content-Type: application/json');
+print(json_encode($slack_msg));
