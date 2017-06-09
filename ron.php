@@ -9,7 +9,8 @@ $ronFacts = array(
 	"Now breaks my wooden shoe",
 	"jup jup jup",
 	"Why have a beer if you can have two",
-	"And I swear!!"
+	"And I swear!!",
+	"This is bullshit!!"
 );
 
 ///////////////////////////////////////////////////////////////////////////////
