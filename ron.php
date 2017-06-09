@@ -8,7 +8,8 @@ $ronFacts = array(
 	":rj0::rj1::rj2::rj3:\n:rj4::rj5::rj6::rj7:\n:rj8::rj9::rj10::rj11:\n:rj12::rj13::rj14::rj15:",
 	"Now breaks my wooden shoe",
 	"jup jup jup",
-	"Why have a beer if you can have two"
+	"Why have a beer if you can have two",
+	"And I swear!!"
 );
 
 $rand = array_rand($ronFacts);
